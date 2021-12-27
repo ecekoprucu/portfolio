@@ -11,6 +11,8 @@ body {
   width: 50vw;
   height: 50vh;
   perspective: 50vw;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .front:after {
@@ -69,4 +71,16 @@ body {
   background: white;
   color: black;
   transform: rotateY( 180deg );
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 25vw;
+    width: 100%;
+  }
 }
