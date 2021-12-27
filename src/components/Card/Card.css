@@ -56,11 +56,11 @@
 
 .front:not(.darkModeFront) {
   background: black;
-  color: white;
+  color: #e8e8e8;
 }
 
 .darkModeFront {
-  background: white;
+  background: #e8e8e8;
   color: black;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .back:not(.darkModeBack) {
-  background: white;
+  background: #e8e8e8;;
   color: black;
 }
 
