@@ -4,5 +4,14 @@
   font-family: 'Teko', sans-serif;
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-self: center;
+  background: #e8e8e8;
+  transition: background-color 1000ms linear;
+  overflow: hidden;
+}
+
+.darkBody {
+  background: black;
+  transition: background-color 1000ms linear;
 }
